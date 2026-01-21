@@ -58,17 +58,17 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="social-media">
-              <h3>Follow Us</h3>
-              <div className="social-links">
-                <a href="#" className="social-link">Facebook</a>
-                <a href="#" className="social-link">Instagram</a>
-                <a href="#" className="social-link">Twitter</a>
-                <a href="#" className="social-link">LinkedIn</a>
-              </div>
-            </div>
-          </div>
+        <div className="social-media" style={{ color: 'black' }}>
 
+  <h3 style={{ color: 'black' }}>Follow Us</h3>
+  <div className="social-links">
+    <a href="#" className="social-link" style={{ color: 'black', textDecoration: 'none' }}>Facebook</a>
+    <a href="#" className="social-link" style={{ color: 'black', textDecoration: 'none' }}>Instagram</a>
+    <a href="#" className="social-link" style={{ color: 'black', textDecoration: 'none' }}>Twitter</a>
+    <a href="#" className="social-link" style={{ color: 'black', textDecoration: 'none' }}>LinkedIn</a>
+  </div>
+</div>
+</div>
           <div className="contact-form-section">
             <h2>Send us a Message</h2>
             <form className="contact-form">
