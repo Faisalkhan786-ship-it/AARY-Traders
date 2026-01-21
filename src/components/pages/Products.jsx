@@ -82,8 +82,8 @@ const Products = ({ addToCart }) => {
   return (
     <div className="products-page">
       <div className="products-header">
-        <h1>Our Jeans Collection</h1>
-        <p>Discover premium quality denim for every style</p>
+        <h1>Our Comfort Slippers Collection</h1>
+        <p>Discover premium quality slippers for every style</p>
       </div>
 
       <div className="products-grid">

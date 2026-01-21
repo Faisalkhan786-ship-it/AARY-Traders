@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section">
           <h3>AARY Traders</h3>
-          <p>Premium quality jeans for every style. Your one-stop destination for the finest denim.</p>
+          <p>Discover our collection of premium handcrafted slippers. From everyday comfort to trendy designs, we have the perfect pair for every step.</p>
           <div className="social-links">
             <a href="#" aria-label="Facebook">Facebook</a>
             <a href="#" aria-label="Instagram">Instagram</a>
@@ -27,16 +27,16 @@ const Footer = () => {
           <ul>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Shipping Info</a></li>
-            <li><a href="#">Returns</a></li>
+            {/* <li><a href="#">Returns</a></li> */}
             <li><a href="#">FAQs</a></li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>Contact</h4>
           <ul>
-            <li>Email: support@fkdenim.com</li>
-            <li>Phone: +91 98765 43210</li>
-            <li>Address: 123 Fashion Street, Mumbai, India</li>
+            {/* <li>Email: support@fkdenim.com</li> */}
+            <li>Phone: +91 7017266901</li>
+            <li>Address: milak road bhainsori,  tehseel milak distt-Rampur (UP) -243701</li>
           </ul>
         </div>
       </div>

@@ -20,21 +20,21 @@ const Contact = () => {
             </p>
 
             <div className="contact-details">
-              <div className="contact-item">
+              {/* <div className="contact-item">
                 <div className="contact-icon">📧</div>
                 <div>
                   <h3>Email</h3>
-                  <p>support@fkdenim.com</p>
+                  <p></p>
                   <p>info@fkdenim.com</p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="contact-item">
                 <div className="contact-icon">📱</div>
                 <div>
                   <h3>Phone</h3>
-                  <p>+91 98765 43210</p>
-                  <p>+91 87654 32109</p>
+                  <p>+91 7017266901</p>
+                  <p>+91 7017266901</p>
                 </div>
               </div>
 
@@ -42,8 +42,8 @@ const Contact = () => {
                 <div className="contact-icon">📍</div>
                 <div>
                   <h3>Address</h3>
-                  <p>123 Fashion Street,</p>
-                  <p>Mumbai, Maharashtra 400001</p>
+                  <p>AARY Traders,</p>
+                  <p>Milak Rampur, Uttar Pradesh 243701</p>
                   <p>India</p>
                 </div>
               </div>
