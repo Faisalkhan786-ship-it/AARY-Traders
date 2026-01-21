@@ -7,10 +7,9 @@ const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">Welcome to AARY Traders</h1>
-          <p className="hero-subtitle">Premium Quality Jeans for Every Style</p>
+          <p className="hero-subtitle">Premium Quality Slippers for Every Style</p>
           <p className="hero-description">
-            Discover our collection of handcrafted denim jeans. From classic fits to trendy styles,
-            we have something for everyone.
+            Discover our collection of premium handcrafted slippers. From everyday comfort to trendy designs, we have the perfect pair for every step.
           </p>
           <Link to="/products" className="cta-button">
             Shop Now
@@ -18,7 +17,7 @@ const Home = () => {
         </div>
         <div className="hero-image">
           <img
-            src="https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop"
+            src="https://imagedelivery.net/nq9qT5FHZv9Sg48UUnD1-A/f683969c-bdde-4ba9-ac81-9262febd8300/public"
             alt="Premium Jeans"
             onError={(e) => {
               e.target.src = 'https://placehold.co/800x1000/CCCCCC/666666?text=FKDenim'
@@ -33,11 +32,11 @@ const Home = () => {
           <h3>Free Shipping</h3>
           <p>On orders above ₹2999</p>
         </div>
-        <div className="feature">
+        {/* <div className="feature">
           <div className="feature-icon">↩️</div>
           <h3>Easy Returns</h3>
           <p>30-day return policy</p>
-        </div>
+        </div> */}
         <div className="feature">
           <div className="feature-icon">✓</div>
           <h3>Quality Guarantee</h3>
@@ -56,7 +55,7 @@ const Home = () => {
         <div className="featured-grid">
           <div className="featured-item">
             <img
-              src="https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop"
+              src="https://imagedelivery.net/nq9qT5FHZv9Sg48UUnD1-A/f683969c-bdde-4ba9-ac81-9262febd8300/public"
               alt="Classic Blue"
               onError={(e) => {
                 e.target.src = 'https://placehold.co/400x500/CCCCCC/666666?text=Classic'
@@ -71,7 +70,7 @@ const Home = () => {
           </div>
           <div className="featured-item">
             <img
-              src="https://hips.hearstapps.com/hmg-prod/images/mhl-jeans-levis-044-68c88b01918b8.jpg?crop=1xw%3A1xh%3Bcenter%2Ctop&resize=1120%3A%2A"
+              src="https://imagedelivery.net/nq9qT5FHZv9Sg48UUnD1-A/8d56c8e8-3110-4897-5612-84f453e16900/public"
               alt="Slim Fit"
               onError={(e) => {
                 e.target.src = 'https://placehold.co/400x500/CCCCCC/666666?text=Slim+Fit'
@@ -86,7 +85,7 @@ const Home = () => {
           </div>
           <div className="featured-item">
             <img
-              src="https://images.jdmagicbox.com/quickquotes/images_main/men-denim-straight-jeans-blue-28-to-36-2227138853-aqgwwa7n.jpg"
+              src="https://imagedelivery.net/nq9qT5FHZv9Sg48UUnD1-A/621e7625-fdbc-44b2-59c4-a9f19b4d0b00/public"
               alt="Trendy Styles"
               onError={(e) => {
                 e.target.src = 'https://placehold.co/400x500/CCCCCC/666666?text=Trendy'

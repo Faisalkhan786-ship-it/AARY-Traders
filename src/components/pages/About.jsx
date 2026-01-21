@@ -6,7 +6,7 @@ const About = () => {
       <section className="about-hero">
         <div className="about-hero-content">
           <h1>About AARY Traders</h1>
-          <p className="hero-tagline">Premium Denim, Exceptional Quality, Timeless Style</p>
+          <p className="hero-tagline">Premium Slippers, Exceptional Comfort, Timeless Style</p>
         </div>
       </section>
 
@@ -15,15 +15,10 @@ const About = () => {
           <div className="about-section">
             <h2>Our Story</h2>
             <p>
-              FKDenim was born from a passion for premium denim and timeless fashion. Since our inception,
-              we've been dedicated to crafting high-quality jeans that combine comfort, style, and durability.
-              Our mission is to provide you with the perfect pair of jeans that fits your lifestyle and reflects
-              your unique personality.
+              AARY TRADERS was born from a passion for premium comfort and reliable footwear. Since our inception, we have been dedicated to crafting high-quality slippers that combine comfort, durability, and modern style. Our mission is to provide you with the perfect pair of slippers that fits your lifestyle and supports you every step of the way.
             </p>
             <p>
-              We believe that great jeans should be accessible to everyone, which is why we've curated a
-              collection that caters to all styles, sizes, and preferences. From classic fits to modern trends,
-              FKDenim has something for every denim enthusiast.
+             We believe that quality footwear should be accessible to everyone. That’s why we’ve curated a diverse collection that caters to all styles, sizes, and preferences. From everyday comfort wear to trendy designs, AARY TRADERS offers something for everyone who values comfort, quality, and style.
             </p>
           </div>
 
@@ -56,12 +51,12 @@ const About = () => {
           <div className="about-section">
             <h2>Why Choose AARY Traders?</h2>
             <ul className="features-list">
-              <li>✓ Premium Quality Materials - Made with the finest denim fabrics</li>
+              <li>✓ Premium Quality Materials - Made with the finest AARY  Traders</li>
               <li>✓ Wide Range of Styles - From classic to contemporary, we have it all</li>
               <li>✓ Perfect Fit Guarantee - Multiple sizes and fits for everyone</li>
               <li>✓ Affordable Pricing - Quality doesn't always mean expensive</li>
               <li>✓ Free Shipping - On orders above ₹2999</li>
-              <li>✓ Easy Returns - 30-day hassle-free return policy</li>
+              {/* <li>✓ Easy Returns - 30-day hassle-free return policy</li> */}
               <li>✓ Customer Support - 24/7 assistance for all your queries</li>
             </ul>
           </div>
